@@ -1,0 +1,321 @@
+body{
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  margin: auto;
+}
+
+ul{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr{
+  width: 50%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.fas.fa-arrow-alt-circle-down{
+  position: fixed;
+  float: right;
+  right: 3rem;
+  bottom: 1rem;
+  font-size: 2.5rem;
+  color: #8e7979;
+  display: none;
+}
+
+.fa-arrow-alt-circle-down:hover{
+  cursor: pointer;
+}
+
+/* Menu */
+.menu-container{
+  width: 90%;
+}
+
+header{
+  background-image: linear-gradient(141deg,#b55d6c 0,#353f6b 71%,#549259 100%);
+}
+
+header ul li{
+  display: inline;
+  float: left;
+  padding: 0.7rem;
+  padding-left: 2rem;
+}
+
+header a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+header a.download{
+  float: right;
+  padding: 0.7rem;
+  margin: 0.5rem;
+  border: 1px solid #909090;
+  font-size: 1rem;
+}
+
+header a.download:hover{
+  border: 1px solid #ffffff;
+  font-weight: bold;
+}
+
+header ul li:hover{
+  cursor: pointer;
+}
+
+/*Title*/
+.header-container{
+  width: 50%;
+  padding-top: 9rem;
+  padding-bottom: 7rem;
+}
+
+header h1{
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+header p.subt{
+  text-align: center;
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  margin: 0px;
+  margin-top: -10px;
+}
+
+header p.arrow{
+  text-align: center;
+  color: #f4f4f4;
+  font-size: 3rem;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+header p.arrow span:hover{
+  cursor: pointer;
+}
+
+.imgc{
+  background: url(../image/colder.ico) no-repeat center 31px;
+  background-size: 7rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+/*Info*/
+#info{
+  padding-top: 5rem;
+  overflow:hidden;
+}
+
+#info .container-info{
+  width: 80%;
+}
+
+#info h2{
+  text-align: center;
+  font-size: 2rem;
+}
+
+/*All-info*/
+#info .all-info{
+  width: 30%;
+  float: left;
+  text-align: center;
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+  padding-bottom: 5rem;
+}
+
+#info .all-info h3{
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+#info .all-info .fas{
+  font-size: 2rem;
+}
+
+#info .all-info .fa-palette{
+  color: #ec3232;
+}
+
+#info .all-info .fa-hashtag{
+  color: #5acc5a;
+}
+
+#info .all-info .fa-file{
+  color: #5050b5;
+}
+
+#info .all-info p{
+  font-size: 1rem;
+  width: 80%;
+  margin: auto;
+}
+
+/*Source*/
+#source{
+  padding-top: 3rem;
+  overflow: hidden;
+  padding-bottom: 5rem;
+}
+
+#source .container-source{
+  width: 70%;
+}
+
+#source .container-source h2{
+  text-align: center;
+  font-size: 2rem;
+}
+
+#source .container-source .fa-github{
+  font-size: 10rem;
+  float: left;
+  padding-right: 2rem;
+}
+
+#source .container-source p{
+  padding-top: 2.5rem;
+}
+
+#source p a{
+  text-decoration: none;
+  color: #4949bd;
+}
+
+/*Documentation*/
+#documentation{
+  padding-top: 3rem;
+  overflow: hidden;
+  padding-bottom: 5rem;
+}
+
+#documentation .container-documentation{
+  width: 80%;
+}
+
+#documentation .container-documentation h2{
+  text-align: center;
+  font-size: 2rem;
+}
+
+#documentation .container-documentation .doc{
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+#documentation .container-documentation h3{
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+#documentation .container-documentation .fas,.fab{
+  font-size: 2rem;
+}
+
+#documentation .container-documentation .fa-windows{
+  color: #0078d6;
+}
+
+#documentation .container-documentation .fa-book{
+  color: #d0a1a1;
+}
+
+#documentation .container-documentation p{
+  font-size: 1rem;
+  width: 80%;
+  margin: auto;
+}
+
+#documentation .container-documentation p a{
+  text-decoration: none;
+  color: #4949bd;
+}
+
+/*Footer*/
+footer{
+  background-image: linear-gradient(141deg,#b55d6c 0,#353f6b 71%,#549259 100%);
+  padding: 1rem 0;
+}
+
+footer .container-fo{
+  width: 50%;
+}
+
+footer .container-fo p{
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 0.1rem;
+}
+
+footer .container-fo p a{
+  text-decoration: none;
+  color: #4949bd;
+}
+
+@media(max-width:700px){
+  .menu-container{
+    display: none;
+  }
+
+  .fas.fa-arrow-alt-circle-down{
+    right: 2rem;
+  }
+}
+
+@media(max-width:900px){
+  #info .all-info{
+    width: 100%;
+    float: none;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+  }
+
+  #source{
+    padding-bottom: 0.5rem;
+  }
+
+  #documentation .container-documentation .doc{
+    width: 100%;
+    float: none;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+  #documentation{
+    padding-bottom: 2rem;
+  }
+
+  #info, #source, #documentation{
+    padding-top: 2rem;
+  }
+}
+
+@media(max-width:300px){
+  #source .container-source .fa-github{
+    font-size: 7rem;
+    padding-right: 0;
+  }
+}
